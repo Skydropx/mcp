@@ -98,6 +98,10 @@ Add to `~/.gemini/settings.json`:
 }
 ```
 
+### Grok Build
+
+Install the `skydropx` plugin from the [xAI plugin marketplace](https://github.com/xai-org/plugin-marketplace). This repository is the plugin source: [`.grok-plugin/plugin.json`](.grok-plugin/plugin.json), [`.mcp.json`](.mcp.json) and the [`skydropx` skill](skills/skydropx/SKILL.md).
+
 ### Other clients
 
 Any client that supports the Streamable HTTP transport and OAuth 2.1 works. The server publishes its authorization metadata at `https://mcp.skydropx.com/.well-known/oauth-protected-resource` and supports Dynamic Client Registration and Client ID Metadata Documents.

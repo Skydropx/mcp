@@ -1,0 +1,13 @@
+{
+  "name": "skydropx",
+  "version": "1.0.0",
+  "description": "Skydropx shipping for Grok Build via the hosted Skydropx MCP server at mcp.skydropx.com. Quote with Mexico's main carriers, buy and track labels, schedule pickups, manage store orders and your address book. Sign in with your Skydropx account on first connect.",
+  "author": {
+    "name": "Skydropx",
+    "url": "https://www.skydropx.com"
+  },
+  "homepage": "https://mcp.skydropx.com/docs",
+  "repository": "https://github.com/Skydropx/mcp",
+  "license": "Proprietary (hosted service; see https://mcp.skydropx.com/legal/terms). Plugin files: MIT.",
+  "keywords": ["skydropx", "skydropx mcp", "skydropx envios", "skydropx shipping", "skydropx guias"]
+}
