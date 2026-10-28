@@ -120,59 +120,61 @@ Create the labels for today's Shopify orders.
 
 ## Tools
 
+<!-- tools:start -->
 49 tools. Write tools need the `write` scope and ask for confirmation.
 
-| Area | Tool | What it does | Access |
-|---|---|---|---|
-| Account | `whoami` | Who am I | read |
-| | `get_events_since` | Get events since cursor | read |
-| | `get_credits` | Get credit balance | read |
-| | `list_transactions` | List account transactions | read |
-| | `list_extra_charges` | List extra charges | read |
-| | `disconnect` | Disconnect Skydropx | connection |
-| Quotes | `quote_shipment` | Quote a shipment | read |
-| | `get_quotation` | Get quotation | read |
-| | `rate_shipment` | Rate a shipment | read |
-| | `list_carrier_services` | List carrier services | read |
-| | `list_packagings` | List packaging types | read |
-| | `list_consignment_notes` | List consignment note codes | read |
-| | `lookup_postal_code` | Look up postal code | read |
-| Shipments | `list_shipments` | List shipments | read |
-| | `get_shipment` | Get shipment | read |
-| | `create_shipment` | Create shipment (buy label) | write |
-| | `cancel_shipment` | Cancel shipment | write |
-| | `protect_shipment` | Insure shipment | write |
-| | `track_shipment` | Track shipment | read |
-| | `push_tracking_event` | Push tracking event | write |
-| | `list_office_points` | List drop-off points | read |
-| Pickups | `list_pickups` | List pickups | read |
-| | `get_pickup` | Get pickup | read |
-| | `pickup_coverage` | Check pickup coverage | read |
-| | `schedule_pickup` | Schedule pickup | write |
-| | `reschedule_pickup` | Reschedule pickup | write |
-| | `reprogram_pickup` | Reprogram pickup | write |
-| Orders | `list_orders` | List orders | read |
-| | `get_order` | Get order | read |
-| | `create_order` | Create order | write |
-| | `update_order` | Update order | write |
-| | `list_order_labels` | List order labels | read |
-| | `create_shipment_for_order` | Create shipment for order | write |
-| | `list_products` | List products | read |
-| Addresses | `list_address_templates` | List saved addresses | read |
-| | `get_address_template` | Get saved address | read |
-| | `create_address_template` | Save address | write |
-| | `update_address_template` | Update saved address | write |
-| | `delete_address_template` | Delete saved address | write |
-| | `verify_address_by_carriers` | Verify address with carriers | write |
-| Stores | `list_merchant_stores` | List connected stores | read |
-| | `get_merchant_store` | Get connected store | read |
-| | `update_merchant_store` | Update connected store | write |
-| | `list_merchant_store_carriers` | List store carriers | read |
-| | `list_conditional_tariffs` | List checkout shipping rules | read |
-| | `create_conditional_tariff` | Create checkout shipping rule | write |
-| External shipments | `create_external_shipment` | Register external shipment | write |
-| | `import_external_shipments` | Import external shipments | write |
-| | `get_external_shipment_import` | Get external shipment import | read |
+| Tool | What it does | Access |
+|---|---|---|
+| `whoami` | Who am I | read |
+| `get_events_since` | Get events since cursor | read |
+| `quote_shipment` | Quote a shipment | read |
+| `get_quotation` | Get quotation | read |
+| `rate_shipment` | Rate a shipment | read |
+| `list_shipments` | List shipments | read |
+| `get_shipment` | Get shipment | read |
+| `create_shipment` | Create shipment (buy label) | write |
+| `cancel_shipment` | Cancel shipment | write |
+| `protect_shipment` | Insure shipment | write |
+| `list_packagings` | List packaging types | read |
+| `list_consignment_notes` | List consignment note codes | read |
+| `list_carrier_services` | List carrier services | read |
+| `track_shipment` | Track shipment | read |
+| `push_tracking_event` | Push tracking event | write |
+| `list_pickups` | List pickups | read |
+| `get_pickup` | Get pickup | read |
+| `schedule_pickup` | Schedule pickup | write |
+| `pickup_coverage` | Check pickup coverage | read |
+| `reschedule_pickup` | Reschedule pickup | write |
+| `reprogram_pickup` | Reprogram pickup | write |
+| `list_orders` | List orders | read |
+| `get_order` | Get order | read |
+| `create_order` | Create order | write |
+| `update_order` | Update order | write |
+| `list_order_labels` | List order labels | read |
+| `create_shipment_for_order` | Create shipment for order | write |
+| `lookup_postal_code` | Look up postal code | read |
+| `list_products` | List products | read |
+| `list_office_points` | List drop-off points | read |
+| `list_transactions` | List account transactions | read |
+| `list_address_templates` | List saved addresses | read |
+| `get_address_template` | Get saved address | read |
+| `create_address_template` | Save address | write |
+| `update_address_template` | Update saved address | write |
+| `delete_address_template` | Delete saved address | write |
+| `verify_address_by_carriers` | Verify address with carriers | write |
+| `list_merchant_stores` | List connected stores | read |
+| `get_merchant_store` | Get connected store | read |
+| `update_merchant_store` | Update connected store | write |
+| `list_merchant_store_carriers` | List store carriers | read |
+| `list_conditional_tariffs` | List checkout shipping rules | read |
+| `create_conditional_tariff` | Create checkout shipping rule | write |
+| `create_external_shipment` | Register external shipment | write |
+| `import_external_shipments` | Import external shipments | write |
+| `get_external_shipment_import` | Get external shipment import | read |
+| `get_credits` | Get credit balance | read |
+| `list_extra_charges` | List extra charges | read |
+| `disconnect` | Disconnect Skydropx | connection |
+<!-- tools:end -->
 
 ## En español
 
